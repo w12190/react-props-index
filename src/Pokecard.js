@@ -3,8 +3,12 @@ import './Pokecard.css'
 
 const POKE_API_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
 
-/** Rendered by Pokedex
+/** Constructs a Pokemon Card with:
+ * -name
+ * -type
+ * -experience
  * 
+ * Rendered by Pokedex
  */
 function Pokecard(props){ //destructuring props
   const { id, name, type, baseExperience } = props.pokemonDataObj

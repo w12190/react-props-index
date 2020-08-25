@@ -1,5 +1,6 @@
 import React from 'react';
 import Pokedex from './Pokedex.js'
+import Pokegame from './Pokegame'
 
 function App() {
 
@@ -15,7 +16,7 @@ const pokeData = [
 ]
 
   return (
-    <Pokedex pokedata={pokeData} />
+    <Pokegame pokedata={pokeData} />
   );
 }
 
